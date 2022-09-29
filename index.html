@@ -8,19 +8,24 @@
     <title>Log Me In</title>
   </head>
   <body>
-    <div class="bg-violet-800 flex h-screen justify-center items-center">
-      <div class="bg-slate-100 h-96 w-1/4">
-        <div class=""><h1 class="text-4xl text underline mb-4">LogMeIn</h1></div>
-      <div>
+    <div class="bg-indigo-900 flex h-screen justify-center items-center">
+      <div class="grid grid-cols-1 bg-slate-100 h-96 w-96 rounded-lg ">
+        <div class="ml-10"><h1 class="text-5xl text underline mb-4 mt-10">LogMeIn</h1></div>
+        <label class="block">
+      <div class="text-slate-400 ml-10">
         <div>
-          <label for="name">Username</label>
-        <input class="border border-slate-300" type="text" placeholder="Username">
+          <span class="text font-semibold" for="name">Username</span>
+          <br>
+        <input class="border-2 rounded-lg border-slate-300 h-14 w-80 mb-4 px-3 py-2 text-xl" type="text" placeholder="Username">
         </div>
-        
-        <label for="password">Password</label>
-        <input type="text" class="border border-slate-300" placeholder="Your password">
+        <span class="text font-semibold" for="password">Password</span>
+        <br>
+        <input type="text" class="border-2 rounded-lg border-slate-300 border-x-2 h-14 w-80 px-3 py-2 text-xl" placeholder="Your password">
       </div>
-
+      <button class="bg-pink-900 mt-6 ml-10 h-14 w-80 rounded-lg text-white text text-xl font-semibold uppercase">login</button>
+        </label>
+        
+      
       </div>
     </div>
     
